@@ -1,8 +1,18 @@
+import { ChevronRight } from "lucide-react";
 import heroImage from "../assets/hero-image.png";
+import Tag from "./Tag";
 
 const Hero = () => {
   return (
     <section className="hero-section text-center flex-col mt-16 sm:mt-32 overflow-hidden ">
+      <Tag>
+        <div className="flex items-center">
+          <span className="font-display font-semibold overflow-visible">
+            LYFT v1
+          </span>
+          <ChevronRight size={18} className="text-indigo-500" />
+        </div>
+      </Tag>
       <h1 className="text-4xl font-extrabold leading-[1.15] text-black sm:text-6xl font-display">
         Launch Your SaaS
         <br />
