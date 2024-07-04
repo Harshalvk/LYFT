@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         'display': ["Geist"]
+      },
+      backgroundImage: {
+        "gradient-to-c": "radial-gradient(var(--tw-gradient-stops))",
       }
     },
   },

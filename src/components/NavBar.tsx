@@ -1,10 +1,8 @@
 const NavBar = () => {
   return (
     <>
-      <div className="flex justify-between items-center border-b pb-3 sticky inset-x-0 top-0 w-full z-30 font-display">
-        <h1 className="text-3xl font-extrabold tracking-widest">
-          LYFT
-        </h1>
+      <div className="flex justify-between items-center border-b pb-2 sticky inset-x-0 top-0 w-full z-30 font-display backdrop-blur-lg pt-2">
+        <h1 className="text-3xl font-extrabold tracking-widest">LYFT</h1>
         <nav>
           <ul className="flex gap-2">
             <li>
