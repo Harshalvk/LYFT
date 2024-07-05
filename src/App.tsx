@@ -1,7 +1,8 @@
 import NavBar from "./components/NavBar";
-// import "./App.css";
 import Hero from "./components/Hero";
 import Layout from "./Layouts/Layout";
+import {PartnersLogo} from "./data/Partners";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <div className="relative z-20">
           <NavBar />
           <Hero />
+          <Slider images={PartnersLogo}/>
         </div>
       </Layout>
     </>
