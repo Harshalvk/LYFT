@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Layout from "./Layouts/Layout";
 import {PartnersLogo} from "./data/Partners";
 import Slider from "./components/Slider";
+import RoadMapSection from "./components/RoadMapSection";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <NavBar />
           <Hero />
           <Slider images={PartnersLogo}/>
+          <RoadMapSection/>
         </div>
       </Layout>
     </>

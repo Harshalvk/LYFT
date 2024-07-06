@@ -1,8 +1,5 @@
-export type PartnersLogoType = {
-  id: number;
-  name: string;
-  logo: string;
-}[]
+import { PartnersLogoType } from "../types";
+
 
 export const PartnersLogo: PartnersLogoType = [
   {
