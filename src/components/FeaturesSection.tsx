@@ -1,8 +1,10 @@
 import { features } from "../data/features";
+import TagLine from "./TagLine";
 
 const FeaturesSection = () => {
   return (
     <div className="flex items-center p-10 justify-center flex-col">
+      <TagLine>Features</TagLine>
       <h2 className="font-extrabold font-display text-3xl mb-8 pt-3">
         Intelligent Form Building
       </h2>
