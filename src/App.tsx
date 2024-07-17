@@ -4,6 +4,7 @@ import Layout from "./Layouts/Layout";
 import {PartnersLogo} from "./data/Partners";
 import Slider from "./components/Slider";
 import RoadMapSection from "./components/RoadMapSection";
+import FeaturesSection from "./components/FeaturesSection";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Hero />
           <Slider images={PartnersLogo}/>
           <RoadMapSection/>
+          <FeaturesSection/>
         </div>
       </Layout>
     </>

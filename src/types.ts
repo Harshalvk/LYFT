@@ -15,3 +15,8 @@ export type RoadmapType = {
   name: string;
   description: string;
 };
+
+export type FeaturesType = {
+  title: string;
+  decription: string
+}[]
