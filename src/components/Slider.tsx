@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { PartnersLogoType } from "../data/Partners";
+import { PartnersLogoType } from "../types";
 
 type SliderProps = {
   images: PartnersLogoType;
