@@ -1,10 +1,11 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Layout from "./Layouts/Layout";
-import {PartnersLogo} from "./data/Partners";
+import { PartnersLogo } from "./data/Partners";
 import Slider from "./components/Slider";
 import RoadMapSection from "./components/RoadMapSection";
 import FeaturesSection from "./components/FeaturesSection";
+import TestimonialsSection from "./components/TestimonialsSection";
 
 function App() {
   return (
@@ -22,9 +23,10 @@ function App() {
         <div className="relative z-20">
           <NavBar />
           <Hero />
-          <Slider images={PartnersLogo}/>
-          <RoadMapSection/>
-          <FeaturesSection/>
+          <Slider images={PartnersLogo} />
+          <RoadMapSection />
+          <FeaturesSection />
+          <TestimonialsSection />
         </div>
       </Layout>
     </>
