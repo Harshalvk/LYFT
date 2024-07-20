@@ -6,6 +6,7 @@ import Slider from "./components/Slider";
 import RoadMapSection from "./components/RoadMapSection";
 import FeaturesSection from "./components/FeaturesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import PricingSection from "./components/PricingSection";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <RoadMapSection />
           <FeaturesSection />
           <TestimonialsSection />
+          <PricingSection/>
         </div>
       </Layout>
     </>
