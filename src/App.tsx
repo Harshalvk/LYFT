@@ -7,6 +7,7 @@ import RoadMapSection from "./components/RoadMapSection";
 import FeaturesSection from "./components/FeaturesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import PricingSection from "./components/PricingSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <FeaturesSection />
           <TestimonialsSection />
           <PricingSection/>
+          <Footer/>
         </div>
       </Layout>
     </>
