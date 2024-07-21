@@ -16,9 +16,9 @@ const PlanCard = ({
   isPopular,
 }: Props) => {
   return (
-    <div className="font-display border p-6 flex flex-col justify-between bg-white/20 backdrop-blur-lg rounded-lg h-full hover:shadow-md text-left relative transition-shadow duration-500">
+    <div className={`font-display border p-6 flex flex-col justify-between bg-white/20 backdrop-blur-lg ${isPopular ? 'rounded-t-none rounded-b-lg': 'rounded-lg'} h-full hover:shadow-md text-left relative transition-shadow duration-500`}>
       {isPopular && (
-        <div className="absolute -top-6 left-0 bg-indigo-500 text-white w-full rounded-t-md text-center flex justify-center items-center">
+        <div className="absolute -top-6 left-0 bg-indigo-500 text-white  w-full rounded-t-md text-center flex justify-center items-center">
           Popular
         </div>
       )}
