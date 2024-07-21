@@ -1,4 +1,5 @@
 import { useMotionValueEvent, useScroll } from "framer-motion";
+import { Link } from "react-scroll";
 import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 const NavBar = () => {
@@ -25,15 +26,42 @@ const NavBar = () => {
       >
         <h1 className="text-3xl font-extrabold tracking-widest">LYFT</h1>
         <nav className="hidden md:block">
-          <ul className="flex gap-2">
+          <ul className="flex gap-6">
             <li>
-              <a href="/">AboutUs</a>
+              <Link
+                to="hero"
+                spy={true}
+                smooth={true}
+                offset={-250}
+                duration={1000}
+                className="cursor-pointer"
+              >
+                Home
+              </Link>
             </li>
             <li>
-              <a href="/">Features</a>
+              <Link
+                to="features"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={1000}
+                className="cursor-pointer"
+              >
+                Features
+              </Link>
             </li>
             <li>
-              <a href="/">Pricing</a>
+              <Link
+                to="pricing"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+                className="cursor-pointer"
+              >
+                Pricing
+              </Link>
             </li>
           </ul>
         </nav>
@@ -51,7 +79,7 @@ const NavBar = () => {
             SignUp
           </a>
         </div>
-        <MobileMenu/>
+        <MobileMenu />
       </div>
     </>
   );

@@ -4,7 +4,7 @@ import Tag from "./Tag";
 
 const Hero = () => {
   return (
-    <section className="hero-section text-center flex-col mt-16 sm:mt-32 overflow-hidden ">
+    <section id="hero" className="hero-section text-center flex-col mt-16 sm:mt-32 overflow-hidden ">
       <Tag>
         <div className="flex items-center">
           <span className="font-display font-semibold overflow-visible">
